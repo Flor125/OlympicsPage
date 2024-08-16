@@ -1,0 +1,110 @@
+*{
+    margin: 1px;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 550px){
+    .main{
+        flex-direction: column;
+    }
+    main{
+        padding: 5em 0 5em 0;
+    }
+}
+
+
+body {
+    height: auto;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-size: 1900px auto;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+header{
+    color: #330000;
+    padding: 0.5em 0 0.5em 0;
+    margin: 0 auto;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main {
+    display: flex;
+    flex: 1;
+}
+.main h2{
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.left{
+    padding: 4em 0 4em 0;
+    flex: 1 1 100px;
+}
+
+main{
+    padding: 2em 0 2em 0;
+    flex: 5 5 150px;
+
+//background-color: rgba(14, 133, 66, 0.09);
+}
+
+.right{
+    padding: 4em 0 4em 0;
+    flex: 1 1 100px;
+}
+
+footer{
+    padding: 1em 0 1em 0;
+}
+
+.container{
+    border: solid 1px rgba(146, 228, 224, 0.2);
+}
+
+.content-main-art{
+    display: block;
+    position: relative;
+    width: 150vh;
+    left: 30vh;
+}
+
+.content-main , .art{
+    width: 100%;
+    height: auto;
+}
+
+.content-text-art{
+    position: absolute;
+    top: 20vh;
+    bottom: 0;
+    height: 50vh;
+    right: 60vh;
+    left: -30vh;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+.content-main-art, h2{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.content-main-art, p{
+    font-size: 1rem;
+}
+
+.right{
+    padding: 4em 0 4em 0;
+    flex: 1 1 100px;
+}
